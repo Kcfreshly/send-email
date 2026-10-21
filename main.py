@@ -15,13 +15,13 @@ GMAIL_APP_PASSWORD = settings.app_password
 TO_EMAIL = settings.reciever_email
 SUBJECT = settings.subject
 BODY = """
-Full Name: Himma Gaji
+Full Name: {placeholder_user_name}
 
 Type of Visa: Long Term Visa
 
 Purpose of stay: Study
 
-Email address: wwnsmichael@gmail.com
+Email address: {placeholder_email_user}
 """
 
 # List all files you want to attach
